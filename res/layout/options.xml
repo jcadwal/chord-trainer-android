@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+	<LinearLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:orientation="vertical"
+	    android:id="@+id/optionslayout" >
+	
+	    <TextView
+	        android:id="@+id/textView1"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"        
+	        android:gravity="center"
+	        android:text="@string/optionstitle"
+	        android:textAppearance="?android:attr/textAppearanceLarge" />
+		
+	    <TextView
+	        android:id="@+id/textView2"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:text="@string/options1"
+	        android:textAppearance="?android:attr/textAppearanceMedium" />
+	
+	    <CheckBox
+	        android:onClick="onKey"
+	        android:id="@+id/checkBoxA"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:text="A" />
+		<CheckBox
+		    android:onClick="onKey"
+	        android:id="@+id/checkBoxAs"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:text="A\u266F / B\u266D" />
+		<CheckBox
+		    android:onClick="onKey"
+	        android:id="@+id/checkBoxB"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:text="B" />
+		<CheckBox
+		    android:onClick="onKey"
+	        android:id="@+id/checkBoxC"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:text="C" />
+		<CheckBox
+		    android:onClick="onKey"
+	        android:id="@+id/checkBoxCs"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:text="C\u266F / D\u266D" />
+		<CheckBox
+		    android:onClick="onKey"
+	        android:id="@+id/checkBoxD"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:text="D" />
+		<CheckBox
+		    android:onClick="onKey"
+	        android:id="@+id/checkBoxDs"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:text="D\u266F / E\u266D" />
+		<CheckBox
+		    android:onClick="onKey"
+	        android:id="@+id/checkBoxE"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:text="E" />
+		<CheckBox
+		    android:onClick="onKey"
+	        android:id="@+id/checkBoxF"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:text="F" />
+		<CheckBox
+		    android:onClick="onKey"
+	        android:id="@+id/checkBoxFs"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:text="F\u266F / G\u266D" />
+		<CheckBox
+		    android:onClick="onKey"
+	        android:id="@+id/checkBoxG"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:text="G" />
+		<CheckBox
+		    android:onClick="onKey"
+	        android:id="@+id/checkBoxGs"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:text="G\u266F / A\u266D" />
+		
+
+	
+	</LinearLayout>
+</ScrollView>

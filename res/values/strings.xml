@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, MainActivity!</string>
+    <string name="app_name">Chord Trainer Lite</string>
+    <string name="optionstitle">Options Menu</string>
+    <string name="options1">Include keys:</string>
+
+</resources>
